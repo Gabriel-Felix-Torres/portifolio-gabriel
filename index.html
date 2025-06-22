@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <title>Portifólio Gabriel Felix</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navegacao">
+            </button>
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Open mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="menu" id="main-menu">
+                <li><a href="#inicio" class="menu-link">Início</a></li>
+                <li><a href="#sobre" class="menu-link">Sobre</a></li>
+                <li><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li><a href="#contato" class="menu-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Gabriel Félix</h1>
+            <p class="hero-subtitle">Estudante de Análise e Desenvolvimento de Sistemas</p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos <i class="fas fa-arrow-right"></i></a>
+                <a href="#contato" class="btn btn-secondary">Entrar em Contato <i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-visuals"></div>
+    </main>
+
+    <section id="sobre" class="about-section">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-content">
+            <div class="about-text-box">
+                <p class="about-paragraph">
+                    Olá! meu nome é Gabriel Felix, tenho 26 anos e sou um estudante de Análise e Desenvolvimento de Sistemas na UNIDESC. Minha curiosidade me impulsiona a sempre buscar soluções inovadoras e a otimizar processos complexos. Adoro transformar ideias desafiadoras em resultados concretos e eficientes.
+                </p>
+                <p class="about-paragraph">
+                    Tenho algumas noções em HTML, CSS, JavaScript, React, Node.js, SQL e estou sempre explorando novas ferramentas para expandir meu arsenal. Estou sempre pronto para discutir como minhas habilidades podem agregar valor à sua equipe ou ideia!
+                </p>
+                <div class="skills-grid">
+                    <h3>Minhas Habilidades:</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i>Noções em Desenvolvimento Web</li>
+                        <li><i class="fas fa-brain"></i> Noções em Java</li>
+                        <li><i class="fas fa-database"></i>Noções em  Banco de Dados (SQL/NoSQL)</li>
+                        <li><i class="fas fa-puzzle-piece"></i> Resolução de Problemas </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects-section">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Buscador de Salas</h3>
+                    <p class="project-description">Aplicação web com React e Node.js para os alunos da UNIDESC buscarem suas respectivas Salas e Disciplinas.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://gabriel-felix-torres.github.io/buscador-de-salas/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Ver Demo</a>
+                        <a href="https://github.com/Gabriel-Felix-Torres/buscador-de-salas
+                        " target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Montagem de Computadores</h3>
+                    <p class="project-description">Um simples site com tutorial e descrição de cada componente de um computador para o aprendizado de iniciantes sobre montagem de computadores.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://gabriel-felix-torres.github.io/montagem-de-computadores/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Ver Demo</a>
+                        <a href="https://github.com/Gabriel-Felix-Torres/montagem-de-computadores" target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Sistema de Cadastro de Funcionários</h3>
+                    <p class="project-description">Um pequeno sistema com um projeto de cadastro com um layout contendo algumas Jframes.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>    
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Gabriel-Felix-Torres/Cadastro-de-Funcionarios-Java" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Ver Demo</a>
+                        <a href="https://github.com/Gabriel-Felix-Torres/Cadastro-de-Funcionarios-Java" target="_blank" class="project-link"><i class="fab fa-github"></i> Código</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <h2 class="section-title">Entre em Contato</h2>
+        <form class="contact-form" id="formulario">
+            <div class="form-group">
+                <input id="nome" placeholder="Seu Nome Completo" class="form-field" type="text" required>
+            </div>
+            <div class="form-group">
+                <input id="email" placeholder="Seu E-mail" class="form-field" type="email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="mensagem" class="form-field" placeholder="Digite sua Mensagem..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit"><i class="fab fa-whatsapp"></i> Enviar para WhatsApp</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Ou me encontre nas redes sociais:</p>
+            <div class="social-icons-contact">
+                <a href="https://www.linkedin.com/in/gabrieel-felix-torres" target="_blank" class="social-icon"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Gabriel-Felix-Torres" target="_blank" class="social-icon"
+                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Gabriel Felix. Todos os direitos reservados.</p>
+        
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
